@@ -10,25 +10,25 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c70635cc28eec97a43f40.jpg",
-        caption=f"""**𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜**""",
+        photo=f"https://te.legra.ph/file/d2a66ad7a46e72b97b815.jpg",
+        caption=f"""**🅐𝖚𝖏𝖑𝖆 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "♥️ Creator ♥️", url=f"https://t.me/DhrubaXD")
+                        "♥️ Creator ♥️", url=f"https://t.me/PB_65_Aujla")
                ],
                 [
                     InlineKeyboardButton(
-                        "Repo ✨", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
+                        "Repo ✨", url=f"https://github.com/PBjatt8/AujlaV2")
                ], 
                 [
                     InlineKeyboardButton(
-                        "👨‍💻 Support", url=f"https://t.me/Official_K_LegendBot")
+                        "❤️𝔾ℝ𝕆𝕌ℙ🤍", url=f"https://t.me/Urban_Chat_Group")
                ],
                 [
                     InlineKeyboardButton(
-                        "💝 Help 💝", url=f"https://t.me/Legend_K_Userbot")
+                        "📽️ꌗ꓄ꍏ꓄ꀎꌗ📺", url=f"https://t.me/Punjabi_Status_Mania")
                 ]
                 
            ]
@@ -38,13 +38,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/11a149401351a322dc1bc.jpg",
+        photo=f"https://te.legra.ph/file/0857c81732583e7e974bf.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Repo 💞", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
+                        "💥 Repo 💞", url=f"https://github.com/PBjatt48/AujlaV2")
                 ]
             ]
         ),
